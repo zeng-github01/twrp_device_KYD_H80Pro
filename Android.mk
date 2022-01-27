@@ -18,6 +18,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), KYD-H80Pro)
+ifeq ($(TARGET_DEVICE), H80Pro)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
