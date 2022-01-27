@@ -75,7 +75,7 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_BOARD_PLATFORM := mt6765
 
 #Recovery
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
