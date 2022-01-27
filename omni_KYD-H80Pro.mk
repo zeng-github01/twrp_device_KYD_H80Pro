@@ -22,17 +22,17 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit from KYD-H80Pro device
-$(call inherit-product, device/alps/KYD-H80Pro/device.mk)
+# Inherit from H80Pro device
+$(call inherit-product, device/KYD/H80Pro/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := KYD-H80Pro
-PRODUCT_NAME := omni_KYD-H80Pro
+PRODUCT_DEVICE := H80Pro
+PRODUCT_NAME := omni_H80Pro
 PRODUCT_BRAND := KORIDY
-PRODUCT_MODEL := KYD-H80Pro
-PRODUCT_MANUFACTURER := alps
+PRODUCT_MODEL := H80Pro
+PRODUCT_MANUFACTURER := KYD
 PRODUCT_RELEASE_NAME := KORIDY KYD-H80Pro
