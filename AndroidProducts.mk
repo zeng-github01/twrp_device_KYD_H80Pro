@@ -20,4 +20,4 @@ PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/omni_KYD-H80Pro.mk
      
 COMMON_LUNCH_CHOICES := \
-    twrp_CE7j-eng
+    omni_KYD-H80Pro-eng
