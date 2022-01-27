@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/alps/KYD-H80Pro
+DEVICE_PATH := device/KYD/H80Pro
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
