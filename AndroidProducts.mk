@@ -17,7 +17,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_KYD-H80Pro.mk
+     $(LOCAL_DIR)/omni_H80Pro.mk
      
 COMMON_LUNCH_CHOICES := \
-    omni_KYD-H80Pro-eng
+    omni_H80Pro-eng
